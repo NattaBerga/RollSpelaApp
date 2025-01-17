@@ -23,12 +23,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
             android:background="@android:color/transparent"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
             android:padding="16dp">
-
 
             <TextView
                 android:id="@+id/groupName"
@@ -38,7 +34,7 @@
                 android:background="#87875549"
                 android:text="Grupper"
                 android:textColor="#ffffff"
-                android:textSize="24sp"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -48,62 +44,56 @@
                 android:background="#56956556"
                 android:text="Grupper som behöver medlemmar"
                 android:textColor="#ffffff"
-                android:textSize="16sp" />
+                android:textSize="15sp" />
         </LinearLayout>
 
     </RelativeLayout>
 
     <SearchView
-        android:id="@+id/searchView"
         android:layout_width="match_parent"
-        android:layout_height="27dp"
+        android:layout_height="30dp"
         android:iconifiedByDefault="false"
         android:queryHint="Sök efter grupper..." />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="534dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="540dp"
+        android:layout_marginTop="15dp"
         android:orientation="vertical">
 
         <!-- Grupp 1 -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="142dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="15dp"
             android:background="#B3B3A7"
             android:gravity="center"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/group1Button"
-                android:layout_width="111dp"
+                android:layout_width="110dp"
                 android:layout_height="80dp"
                 android:layout_marginBottom="8dp"
                 android:background="#947373"
-                android:gravity="center"
-                android:padding="16dp"
+                android:padding="15dp"
                 android:text="Dungeons & Dragons"
                 android:textColor="#ffffff"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/group1Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Vi söker en tank och en healer för vårt DnD-kampanj."
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/group1Members"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Members: 3"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -111,42 +101,35 @@
         <!-- Grupp 2  -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="149dp"
-            android:layout_marginBottom="16dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
             android:background="#B3B3A7"
             android:gravity="center"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/group2Button"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:layout_marginBottom="8dp"
                 android:background="#85735E"
-                android:gravity="center"
-                android:onClick="onGroupButtonClick"
-                android:padding="16dp"
+                android:padding="15dp"
                 android:text="Elden Ring"
                 android:textColor="#ffffff"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/group2Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Sökes: En tank som kan ta Malenia, Blade of Miquella's uppmärksamhet"
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/group2Members"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Members: 2"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -154,43 +137,38 @@
         <!-- Grupp 3  -->
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="145dp"
             android:layout_marginBottom="16dp"
             android:background="#B3B3A7"
             android:gravity="center"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/group2Button"
                 android:layout_width="wrap_content"
-                android:layout_height="68dp"
+                android:layout_height="70dp"
                 android:layout_marginBottom="8dp"
 
                 android:background="#D15454"
                 android:gravity="center"
                 android:onClick="onGroupButtonClick"
-                android:padding="16dp"
+                android:padding="15dp"
                 android:text="Valorant"
                 android:textColor="#ffffff"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/group2Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Letar efter en duellist, en controller och en healer för att fylla vår 5man på Valorant"
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/group2Members"
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:layout_marginTop="4dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Members: 2"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -205,35 +183,29 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/group2Button"
                 android:layout_width="114dp"
                 android:layout_height="75dp"
                 android:layout_marginBottom="8dp"
                 android:background="#5E7985"
                 android:gravity="center"
-                android:onClick="onGroupButtonClick"
                 android:padding="16dp"
                 android:text="Cyberpunk 2077"
                 android:textColor="#ffffff"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/group2Description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text=""
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/group2Members"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
                 android:text="Members: 2"
                 android:textColor="#000000" />
         </LinearLayout>
@@ -241,10 +213,9 @@
 
     <!-- Gå med grupp -->
     <Button
-        android:id="@+id/joinButton"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#58807c"
         android:text="Gå med i grupp" />
 
